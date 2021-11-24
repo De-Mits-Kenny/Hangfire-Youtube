@@ -1,0 +1,10 @@
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\bin\Debug\netcoreapp3.1\Hangfire.Sdk.deps.json
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\bin\Debug\netcoreapp3.1\Hangfire.Sdk.dll
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\bin\Debug\netcoreapp3.1\Hangfire.Sdk.pdb
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.csproj.AssemblyReference.cache
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.AssemblyInfoInputs.cache
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.AssemblyInfo.cs
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.csproj.CoreCompileInputs.cache
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.dll
+D:\Repos\Hangfire-Youtube-Downloader\Hangfire.Sdk\obj\Debug\netcoreapp3.1\Hangfire.Sdk.pdb

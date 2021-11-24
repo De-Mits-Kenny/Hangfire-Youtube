@@ -1,9 +1,3 @@
-D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.csproj.AssemblyReference.cache
-D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.AssemblyInfoInputs.cache
-D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.AssemblyInfo.cs
-D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.csproj.CoreCompileInputs.cache
-D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\Hangfire.Api.exe
@@ -33,6 +27,12 @@ D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\run
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\Hangfire.Downloader.dll
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\bin\Debug\netcoreapp3.1\Hangfire.Downloader.pdb
+D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.csproj.AssemblyReference.cache
+D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.AssemblyInfoInputs.cache
+D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.AssemblyInfo.cs
+D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.csproj.CoreCompileInputs.cache
+D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\staticwebassets\Hangfire.Api.StaticWebAssets.Manifest.cache
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.RazorTargetAssemblyInfo.cache
 D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\obj\Debug\netcoreapp3.1\Hangfire.Api.csproj.CopyComplete

@@ -17,8 +17,6 @@ namespace hangfire_webapi.Controllers
         [Route("[action]")]
         public async Task<IActionResult>Download(string link, string fileName)
         {
-            fileName = "test";
-            link = "https://www.youtube.com/watch?v=d95PPykB2vE";
             var jobId = BackgroundJob.Enqueue(() => YoutubeDownloader.DownloadAsync(link, fileName));
 
             Console.WriteLine($"Started downloading Url: {link} {Environment.NewLine} .");
