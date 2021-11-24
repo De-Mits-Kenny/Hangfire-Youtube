@@ -1,0 +1,48 @@
+﻿using System.Text.RegularExpressions;
+using YoutubeExplode;
+using YoutubeExplode.Videos.Streams;
+
+namespace Hangfire.YouTube.Downloader;
+
+public class YouTubeDownloader : IYouTubeDownloader
+{
+    public string ExtractYoutubeId(string link)
+    {
+        var YoutubeLinkRegex = "(?:.+?)?(?:\\/v\\/|watch\\/|\\?v=|\\&v=|youtu\\.be\\/|\\/v=|^youtu\\.be\\/)([a-zA-Z0-9_-]{11})+";
+        var regex = new Regex(YoutubeLinkRegex, RegexOptions.Compiled);
+        foreach (Match match in regex.Matches(link))
+        {
+            //Console.WriteLine(match);
+            foreach (var groupdata in match.Groups.Cast<Group>().Where(groupdata => !groupdata.ToString().StartsWith("http://") 
+                         && !groupdata.ToString().StartsWith("https://") 
+                         && !groupdata.ToString().StartsWith("youtu") 
+                         && !groupdata.ToString().StartsWith("www.")))
+            {
+                return groupdata.ToString();
+            }
+        }
+        return string.Empty;
+    }
+
+    public async Task<StreamManifest> GetStreamManifest(string link)
+    {
+        var youtube = new YoutubeClient();
+        var Id = ExtractYoutubeId(link);
+        var streamManifest = await youtube.Videos.Streams.GetManifestAsync(Id);
+        return streamManifest;
+    }
+
+    public IVideoStreamInfo GetStreamInfoMuxed(StreamManifest streamManifest)
+    {
+        return streamManifest.GetMuxedStreams().GetWithHighestVideoQuality();
+    }
+
+    public async Task DownloadAsync(string link)
+    {
+        var youtube = new YoutubeClient();
+        var streamManifest = GetStreamManifest(link);
+        var streamInfo = GetStreamInfoMuxed(streamManifest.Result);
+        var stream = await youtube.Videos.Streams.GetAsync(streamInfo);
+        await youtube.Videos.Streams.DownloadAsync(streamInfo, $"C:\\Users\\kdemi\\Desktop\\YouTubeVideosTest\\{streamInfo.Container}");
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "3k/PnvOE8iv/DXv6dMnPJOdXjOcb+41EZFhTHDeKJHxw28uRVkoJenQ0e6TC8EG+ZwmlzW31pZpDBwh1G7hBWQ==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\Hangfire-Test-Project\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kdemi\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\youtubeexplode\\6.0.5\\youtubeexplode.6.0.5.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\youtubeexplode.converter\\2.1.0\\youtubeexplode.converter.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

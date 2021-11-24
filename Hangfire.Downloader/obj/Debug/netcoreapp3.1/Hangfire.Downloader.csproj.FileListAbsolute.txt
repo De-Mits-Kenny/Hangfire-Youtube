@@ -1,0 +1,10 @@
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\bin\Debug\netcoreapp3.1\Hangfire.Downloader.deps.json
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\bin\Debug\netcoreapp3.1\Hangfire.Downloader.dll
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\bin\Debug\netcoreapp3.1\Hangfire.Downloader.pdb
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.AssemblyInfoInputs.cache
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.AssemblyInfo.cs
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.csproj.CoreCompileInputs.cache
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.dll
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.pdb
+D:\Repos\Hangfire-Test-Project\Hangfire.Downloader\obj\Debug\netcoreapp3.1\Hangfire.Downloader.csproj.AssemblyReference.cache
