@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\hangfire-webapi\Hangfire.Api.csproj" />
+    <ProjectReference Include="..\Hangfire.Sdk\Hangfire.Sdk.csproj" />
   </ItemGroup>
 
 </Project>

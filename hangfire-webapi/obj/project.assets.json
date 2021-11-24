@@ -292,6 +292,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Hangfire.Models": "1.0.0",
           "YoutubeExplode": "6.0.5",
           "YoutubeExplode.Converter": "2.1.0"
         },
@@ -300,6 +301,16 @@
         },
         "runtime": {
           "bin/placeholder/Hangfire.Downloader.dll": {}
+        }
+      },
+      "Hangfire.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Hangfire.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hangfire.Models.dll": {}
         }
       }
     }
@@ -875,6 +886,11 @@
       "type": "project",
       "path": "../Hangfire.Downloader/Hangfire.Downloader.csproj",
       "msbuildProject": "../Hangfire.Downloader/Hangfire.Downloader.csproj"
+    },
+    "Hangfire.Models/1.0.0": {
+      "type": "project",
+      "path": "../Hangfire.Models/Hangfire.Models.csproj",
+      "msbuildProject": "../Hangfire.Models/Hangfire.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {

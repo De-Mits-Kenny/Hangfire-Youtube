@@ -21,4 +21,8 @@
     <Folder Include="MetaDataHelpers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hangfire.Models\Hangfire.Models.csproj" />
+  </ItemGroup>
+
 </Project>

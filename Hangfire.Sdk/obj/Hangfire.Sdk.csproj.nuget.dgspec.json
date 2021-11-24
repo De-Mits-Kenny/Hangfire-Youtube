@@ -4,6 +4,60 @@
     "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Sdk\\Hangfire.Sdk.csproj": {}
   },
   "projects": {
+    "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj",
+        "projectName": "Hangfire.Models",
+        "projectPath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj",
+        "packagesPath": "C:\\Users\\kdemi\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kdemi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/scoops-ardooie/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Sdk\\Hangfire.Sdk.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -18,16 +72,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.pkg.github.com/scoops-ardooie/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj": {
+                "projectPath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,8 +95,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",

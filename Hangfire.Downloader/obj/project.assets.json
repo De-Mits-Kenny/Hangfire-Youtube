@@ -84,6 +84,16 @@
         "runtime": {
           "lib/netstandard2.1/YoutubeExplode.Converter.dll": {}
         }
+      },
+      "Hangfire.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Hangfire.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hangfire.Models.dll": {}
+        }
       }
     }
   },
@@ -263,10 +273,16 @@
         "youtubeexplode.converter.2.1.0.nupkg.sha512",
         "youtubeexplode.converter.nuspec"
       ]
+    },
+    "Hangfire.Models/1.0.0": {
+      "type": "project",
+      "path": "../Hangfire.Models/Hangfire.Models.csproj",
+      "msbuildProject": "../Hangfire.Models/Hangfire.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Hangfire.Models >= 1.0.0",
       "YoutubeExplode >= 6.0.5",
       "YoutubeExplode.Converter >= 2.1.0"
     ]
@@ -297,7 +313,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj": {
+              "projectPath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Models\\Hangfire.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

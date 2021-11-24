@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using Hangfire.Sdk.Models;
+using Hangfire.Models;
 
 namespace Hangfire.Sdk
 {
@@ -16,7 +16,6 @@ namespace Hangfire.Sdk
         public async Task Download(VideoRequest request)
         {
             var httpClient = _httpClientFactory.CreateClient("Hangfire");
-
             var route = "people";
             var httpResponse = await httpClient.PostAsJsonAsync(route, request);
 

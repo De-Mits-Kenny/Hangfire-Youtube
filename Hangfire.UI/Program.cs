@@ -1,13 +1,21 @@
 ﻿using System;
+using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Hangfire.Downloader.Downloaders;
 using Hangfire.Downloader.MetaDataHelpers;
+using Hangfire.Models;
+using Hangfire.Sdk;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Hangfire.UI
 {
     internal class Program
     {
+
+        private IHttpClientFactory _httpClientFactory;
+        private HangfireApi _hangfireApi = new HangfireApi();
         static async Task Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
@@ -23,7 +31,10 @@ namespace Hangfire.UI
             var filename = Console.ReadLine();
             Console.Clear();
 
-            var result = YoutubeDownloader.DownloadAsync(link, filename);
+            VideoRequest request = new VideoRequest(link, filename);
+            await _hangfireApi.Download(request);
+
+
             var info = await YouTubeInfo.GetVideoData(link);
 
             ConsoleWriter.WriteText($"You chose to download the video: \"{info.Title}\" {Environment.NewLine}", ConsoleColor.White);
@@ -42,9 +53,19 @@ namespace Hangfire.UI
             }
             ConsoleWriter.WriteText($"link: {link} {Environment.NewLine}filename: {filename}", ConsoleColor.Green);
 
+        }
+
+        public static void ConfigureServices(IServiceCollection services)
+        {
+            services.AddHttpClient("Hangfire", options =>
+            {
+                options.BaseAddress = new Uri("api/Hangfire/Download");
+            });
+
+            services.AddHttpContextAccessor();
 
 
-
+            services.AddTransient<HangfireApi>();
 
 
         }

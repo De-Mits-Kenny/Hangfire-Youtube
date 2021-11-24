@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-
+using Hangfire.Models;
 using YoutubeExplode;
 using YoutubeExplode.Videos.Streams;
 
@@ -40,13 +40,13 @@ namespace Hangfire.Downloader.Downloaders
             return streamManifest.GetMuxedStreams().GetWithHighestVideoQuality();
         }
 
-        public static async Task DownloadAsync(string link, string fileName)
+        public static async Task DownloadAsync(VideoRequest request)
         {
             var youtube = new YoutubeClient();
-            var streamManifest = GetStreamManifest(link);
+            var streamManifest = GetStreamManifest(request.link);
             var streamInfo = GetStreamInfoMuxed(streamManifest.Result);
             var stream = await youtube.Videos.Streams.GetAsync(streamInfo);
-            await youtube.Videos.Streams.DownloadAsync(streamInfo, $"C:\\Users\\kdemi\\Desktop\\YouTubeVideosTest\\{fileName}.{streamInfo.Container}");
+            await youtube.Videos.Streams.DownloadAsync(streamInfo, $"C:\\Users\\kdemi\\Desktop\\YouTubeVideosTest\\{request.fileName}.{streamInfo.Container}");
         }
     }
 }
