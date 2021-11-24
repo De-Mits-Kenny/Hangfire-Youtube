@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = hangfire_webapi
+build_property.ProjectDir = D:\Repos\Hangfire-Youtube-Downloader\hangfire-webapi\

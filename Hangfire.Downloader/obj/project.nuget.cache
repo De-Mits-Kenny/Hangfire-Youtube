@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3k/PnvOE8iv/DXv6dMnPJOdXjOcb+41EZFhTHDeKJHxw28uRVkoJenQ0e6TC8EG+ZwmlzW31pZpDBwh1G7hBWQ==",
+  "dgSpecHash": "QKtgC7/ML6KS4v9B/PfoyPHvbcyGI4pfrdiAMqAc3GAE0l0dC70tVjdBF1aMm6ZUrbeScvL83q4iIrxkVcksJw==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\Hangfire-Test-Project\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
+  "projectFilePath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kdemi\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\kdemi\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",

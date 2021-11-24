@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Api", "hangfire-webapi\Hangfire.Api.csproj", "{B088189A-507A-448C-800F-41E2274071C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Downloader", "Hangfire.Downloader\Hangfire.Downloader.csproj", "{009637D2-07E8-4F15-8F87-608B5ADAE7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Downloader", "Hangfire.Downloader\Hangfire.Downloader.csproj", "{009637D2-07E8-4F15-8F87-608B5ADAE7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.UI", "Hangfire.UI\Hangfire.UI.csproj", "{512D43C5-05F5-424B-B574-08911C6303E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{009637D2-07E8-4F15-8F87-608B5ADAE7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009637D2-07E8-4F15-8F87-608B5ADAE7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009637D2-07E8-4F15-8F87-608B5ADAE7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512D43C5-05F5-424B-B574-08911C6303E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512D43C5-05F5-424B-B574-08911C6303E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512D43C5-05F5-424B-B574-08911C6303E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512D43C5-05F5-424B-B574-08911C6303E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

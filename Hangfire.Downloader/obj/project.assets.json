@@ -277,11 +277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\Hangfire-Test-Project\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
+      "projectUniqueName": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
       "projectName": "Hangfire.Downloader",
-      "projectPath": "D:\\Repos\\Hangfire-Test-Project\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
+      "projectPath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Downloader\\Hangfire.Downloader.csproj",
       "packagesPath": "C:\\Users\\kdemi\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\Hangfire-Test-Project\\Hangfire.Downloader\\obj\\",
+      "outputPath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.Downloader\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kdemi\\AppData\\Roaming\\NuGet\\NuGet.Config",

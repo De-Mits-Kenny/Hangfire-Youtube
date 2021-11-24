@@ -30,7 +30,7 @@ namespace hangfire_webapi.Controllers
 
             Console.ForegroundColor = ConsoleColor.White;
 
-            return Ok($"Job ID: {jobId}. VideoLink: {link} downloaded.");
+            return Ok($"Job ID: {jobId}. VideoLink: {link} started downloading.");
         }
 
     }

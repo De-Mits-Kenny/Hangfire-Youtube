@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tm7uFfdflmRreH3+yYQPWPBkaMlTCqrNXpmEIevAj41DzHU5pKpVjRSIJsl1iaMx5dbaamlNx40qpWldYjEYrQ==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\Hangfire-Youtube-Downloader\\Hangfire.UI\\Hangfire.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kdemi\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\hangfire\\1.7.9\\hangfire.1.7.9.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\hangfire.aspnetcore\\1.7.9\\hangfire.aspnetcore.1.7.9.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\hangfire.core\\1.7.9\\hangfire.core.1.7.9.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\hangfire.sqlserver\\1.7.9\\hangfire.sqlserver.1.7.9.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.data.sqlclient\\4.4.0\\system.data.sqlclient.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.security.accesscontrol\\4.4.0\\system.security.accesscontrol.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.security.principal.windows\\4.4.0\\system.security.principal.windows.4.4.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\youtubeexplode\\6.0.5\\youtubeexplode.6.0.5.nupkg.sha512",
+    "C:\\Users\\kdemi\\.nuget\\packages\\youtubeexplode.converter\\2.1.0\\youtubeexplode.converter.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
